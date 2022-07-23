@@ -4,7 +4,7 @@ const Counter = (props) => {
   const {value} = props;
 
   const formatValue = () => {
-    return value===0?<h1>empty</h1>: value;
+    return value === 0 ? <h1>empty</h1> : value;
   }
 
   const getBadgeClasses = () => {
